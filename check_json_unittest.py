@@ -18,7 +18,7 @@ class TestJsonInput(unittest.TestCase):
     def test_multiple_key(self):
         payload = {"string_to_cut": "i", "testing": "fake"}
         response = self.client.post('/test', data=json.dumps(payload))
-        self.assertIn(b"Only 1 Key \'string_to_cut\' should be present.: Make sure the key is \'string_to_cut\'", response.data)
+        self.assertIn(b"Only 1 Key \'string_to_cut\' should be present.", response.data)
 
     def test_invalid_value(self):
         payload = {"string_to_cut": "i"}
