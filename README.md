@@ -7,7 +7,7 @@ This Web Application accepts a POST request with the input being a JSON object c
 
 ## Setup
 
-As a prerequisite you need to have access to linux terminal and python version 3.6+ is required. Check your python version by running the following command
+As a prerequisite you need to have access to linux terminal and python version 3.6+ is required. Check your python version by running the following command.
 
     python3 --version
 Please also make sure that pip is installed in your system.
@@ -40,7 +40,7 @@ Then run the following command to change the directory to env.
 
     cd env
 
-Activate the virtual environment by running the following command
+Activate the virtual environment by running the following command.
 
     source bin/activate
 
@@ -49,7 +49,7 @@ After activating your virtual environment run a `ls` command to check the conten
 
 ## Install Dependency
 
-Install the flask dependency required by running the following command
+Install the flask dependency required by running the following command.
 
     pip3 install -r requirements.txt
  
