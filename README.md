@@ -51,7 +51,7 @@ After activating your virtual environment run a `ls` command to check the conten
 
 Install the flask dependency required by running the following command
 
-    pip3 install requirements.txt
+    pip3 install -r requirements.txt
  
 
 ## Run the python file
