@@ -31,9 +31,9 @@ def get_third_element():
             ans['return_string'] += string_to_cut[index]
 
         return jsonify(ans)
-    except Exception as e:
+    except KeyError:
         abort(404,
-              description=f"{e}: Make sure the key is 'string_to_cut'")
+              description="Key Error: Make sure the key is 'string_to_cut'")
 
 
 if __name__ == '__main__':
