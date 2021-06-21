@@ -17,7 +17,7 @@ Please also make sure that pip is installed in your system.
 
 Clone the repository to your local system using the following command.
 
-    git clone
+    git clone https://github.com/monishajacob/TextFormatter.git
 
 navigate to project root by running the following command.
 
